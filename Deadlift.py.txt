@@ -91,7 +91,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.6) as 
                 recc= 0
                 timeroff = False
             if diff < 170 :
-                cv.putText(image, 'Nikhil Keep Your Chest Up', (150,50), cv.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2, cv.LINE_AA)
+                cv.putText(image, 'Rakshita Keep Your Chest Up', (150,50), cv.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2, cv.LINE_AA)
             
         cv.putText(image, 'Reps :', (10,20), cv.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 2, cv.LINE_AA)
         cv.putText(image, str(Reps), (70,20), cv.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 2, cv.LINE_AA)
